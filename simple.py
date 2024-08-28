@@ -1,5 +1,5 @@
 def bubble_sort(array):
-    n = size(array)
+    n = len(array)
     
     for i in range(n):
         set_flag = True
@@ -15,8 +15,7 @@ def bubble_sort(array):
         if set_flag:
             break
     
-    print(array)
-    # return array
+    return array
 
 
 if __name__ == '__main__':    

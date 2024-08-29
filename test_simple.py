@@ -1,5 +1,5 @@
 import pytest
-from simple import bubble_sort
+from main.simple import bubble_sort
 
 def test_empty_list():
     assert bubble_sort([]) == []

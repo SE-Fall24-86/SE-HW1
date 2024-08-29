@@ -21,3 +21,5 @@ def bubble_sort(array):
 if __name__ == '__main__':    
     A = [3, 6, 1, 5, 8, 2, 11, 7]
     bubble_sort(A)
+
+print("hello world")
